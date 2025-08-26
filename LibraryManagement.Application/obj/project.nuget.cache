@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xggCLeWj1Ug=",
+  "success": true,
+  "projectFilePath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SHIKHON\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
