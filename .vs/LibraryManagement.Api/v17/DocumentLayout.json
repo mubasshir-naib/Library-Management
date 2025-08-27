@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\BrainStation23\\LibraryManagement.Api\\",
+  "WorkspaceRootPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|e:\\brainstation23\\librarymanagement.api\\librarymanagement.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|e:\\brainstation23\\librarymanagement.api\\librarymanagement.application\\librarymanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\librarymanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|e:\\brainstation23\\librarymanagement.api\\librarymanagement.api\\librarymanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|solutionrelative:librarymanagement.api\\librarymanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|e:\\brainstation23\\librarymanagement.api\\librarymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|solutionrelative:librarymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|e:\\brainstation23\\librarymanagement.api\\librarymanagement.api\\librarymanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|solutionrelative:librarymanagement.api\\librarymanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|e:\\brainstation23\\librarymanagement.api\\librarymanagement.core\\librarymanagement.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.core\\librarymanagement.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\librarymanagement.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|e:\\brainstation23\\librarymanagement.api\\librarymanagement.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.application\\librarymanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\librarymanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.api\\librarymanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|solutionrelative:librarymanagement.api\\librarymanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|solutionrelative:librarymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.api\\librarymanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|solutionrelative:librarymanagement.api\\librarymanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|e:\\brainstation23\\librarymanagement.api\\librarymanagement.infrastructure\\librarymanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.infrastructure\\librarymanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\librarymanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|e:\\brainstation23\\librarymanagement.api\\librarymanagement.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|solutionrelative:librarymanagement.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|e:\\brainstation23\\librarymanagement.api\\librarymanagement.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|e:\\brainstation23\\librarymanagement.api\\librarymanagement.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,82 +54,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibraryManagement.Api.http",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\LibraryManagement.Api.http",
+              "RelativeDocumentMoniker": "LibraryManagement.Api\\LibraryManagement.Api.http",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\LibraryManagement.Api.http",
+              "RelativeToolTip": "LibraryManagement.Api\\LibraryManagement.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-26T07:24:39.504Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LibraryManagement.Api.http",
-              "DocumentMoniker": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\LibraryManagement.Api.http",
-              "RelativeDocumentMoniker": "LibraryManagement.Api\\LibraryManagement.Api.http",
-              "ToolTip": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\LibraryManagement.Api.http",
-              "RelativeToolTip": "LibraryManagement.Api\\LibraryManagement.Api.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-08-26T07:24:39.504Z",
-              "EditorCaption": ""
+              "Title": "LibraryManagement.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\LibraryManagement.Application.csproj",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
+              "RelativeToolTip": "LibraryManagement.Application\\LibraryManagement.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-26T05:33:39.591Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LibraryManagement.Application.csproj",
-              "DocumentMoniker": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\LibraryManagement.Application.csproj",
-              "ToolTip": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
-              "RelativeToolTip": "LibraryManagement.Application\\LibraryManagement.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-26T05:33:39.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Application\\DependencyInjection.cs",
-              "ToolTip": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\DependencyInjection.cs",
               "RelativeToolTip": "LibraryManagement.Application\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T05:19:00.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "LibraryManagement.Core.csproj",
-              "DocumentMoniker": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\LibraryManagement.Core.csproj",
-              "ToolTip": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
               "RelativeToolTip": "LibraryManagement.Core\\LibraryManagement.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -137,95 +107,92 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LibraryManagement.Api.csproj",
-              "DocumentMoniker": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\LibraryManagement.Api.csproj",
-              "RelativeDocumentMoniker": "LibraryManagement.Api\\LibraryManagement.Api.csproj",
-              "ToolTip": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\LibraryManagement.Api.csproj",
-              "RelativeToolTip": "LibraryManagement.Api\\LibraryManagement.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-26T05:33:27.555Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "LibraryManagement.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\LibraryManagement.Api.csproj",
+              "RelativeDocumentMoniker": "LibraryManagement.Api\\LibraryManagement.Api.csproj",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\LibraryManagement.Api.csproj",
+              "RelativeToolTip": "LibraryManagement.Api\\LibraryManagement.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-26T05:33:27.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\Program.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Api\\Program.cs",
-              "ToolTip": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\Program.cs",
               "RelativeToolTip": "LibraryManagement.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T05:36:56.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T05:36:56.52Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeToolTip": "LibraryManagement.Infrastructure\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T06:36:30.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T06:36:30.479Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "LibraryManagement.Infrastructure.csproj",
-              "DocumentMoniker": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
               "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
-              "ToolTip": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
               "RelativeToolTip": "LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-26T05:31:09.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T05:31:09.368Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Api\\DependencyInjection.cs",
-              "ToolTip": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\DependencyInjection.cs",
               "RelativeToolTip": "LibraryManagement.Api\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T05:35:12.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T05:35:12.959Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\DependencyInjection.cs",
               "RelativeToolTip": "LibraryManagement.Infrastructure\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T05:31:29.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T05:31:29.881Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\DependencyInjection.cs",
-              "ToolTip": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\DependencyInjection.cs",
               "RelativeToolTip": "LibraryManagement.Core\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAABSwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T05:28:35.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T05:28:35.035Z"
             }
           ]
         }

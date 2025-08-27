@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\LibraryManagement.Api.csproj": {}
+    "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\LibraryManagement.Api.csproj": {}
   },
   "projects": {
-    "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\LibraryManagement.Api.csproj": {
+    "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\LibraryManagement.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\LibraryManagement.Api.csproj",
+        "projectUniqueName": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\LibraryManagement.Api.csproj",
         "projectName": "LibraryManagement.Api",
-        "projectPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\LibraryManagement.Api.csproj",
-        "packagesPath": "C:\\Users\\SHIKHON\\.nuget\\packages\\",
-        "outputPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Api\\obj\\",
+        "projectPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\LibraryManagement.Api.csproj",
+        "packagesPath": "C:\\Users\\BS01627\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SHIKHON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BS01627\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj": {
-                "projectPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj"
+              "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\LibraryManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\LibraryManagement.Application.csproj"
               },
-              "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj": {
-                "projectPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj"
+              "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj"
               }
             }
           }
@@ -51,7 +51,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -87,24 +88,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj": {
+    "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\LibraryManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
+        "projectUniqueName": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
         "projectName": "LibraryManagement.Application",
-        "projectPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\SHIKHON\\.nuget\\packages\\",
-        "outputPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\obj\\",
+        "projectPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\LibraryManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\BS01627\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SHIKHON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BS01627\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -120,8 +121,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj": {
-                "projectPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj"
+              "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\LibraryManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\LibraryManagement.Core.csproj"
               }
             }
           }
@@ -135,7 +136,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -166,24 +168,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj": {
+    "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\LibraryManagement.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
+        "projectUniqueName": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
         "projectName": "LibraryManagement.Core",
-        "projectPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
-        "packagesPath": "C:\\Users\\SHIKHON\\.nuget\\packages\\",
-        "outputPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\obj\\",
+        "projectPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
+        "packagesPath": "C:\\Users\\BS01627\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SHIKHON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BS01627\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -210,7 +212,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -237,24 +240,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj": {
+    "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
         "projectName": "LibraryManagement.Infrastructure",
-        "projectPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\SHIKHON\\.nuget\\packages\\",
-        "outputPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\BS01627\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SHIKHON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BS01627\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -270,8 +273,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj": {
-                "projectPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Application\\LibraryManagement.Application.csproj"
+              "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\LibraryManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\LibraryManagement.Application.csproj"
               }
             }
           }
@@ -285,7 +288,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -332,7 +336,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

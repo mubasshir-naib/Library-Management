@@ -60,23 +60,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SHIKHON\\.nuget\\packages\\": {},
+    "C:\\Users\\BS01627\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
+      "projectUniqueName": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
       "projectName": "LibraryManagement.Core",
-      "projectPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
-      "packagesPath": "C:\\Users\\SHIKHON\\.nuget\\packages\\",
-      "outputPath": "E:\\BrainStation23\\LibraryManagement.Api\\LibraryManagement.Core\\obj\\",
+      "projectPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
+      "packagesPath": "C:\\Users\\BS01627\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SHIKHON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BS01627\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -103,7 +103,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -130,7 +131,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
