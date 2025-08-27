@@ -4,6 +4,7 @@ using LibraryManagement.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibraryManagement.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250827132243_addedentity1")]
+    partial class addedentity1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,42 +25,12 @@ namespace LibraryManagement.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-<<<<<<< HEAD
-            modelBuilder.Entity("LibraryManagement.Core.Entities.BorrowEntity", b =>
-=======
             modelBuilder.Entity("LibraryManagement.Core.Entities.BooksEntity", b =>
->>>>>>> 514a5cfae5f6d7b5c62eb390335577d5bc10a8ea
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-<<<<<<< HEAD
-                    b.Property<Guid>("BookId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("BorrowRequestStatusEnum")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("BorrowingDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DueDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool?>("IsReturned")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime?>("ReturnDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Borrows");
-=======
                     b.Property<string>("AudioClip")
                         .HasColumnType("nvarchar(max)");
 
@@ -104,7 +77,6 @@ namespace LibraryManagement.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Books");
->>>>>>> 514a5cfae5f6d7b5c62eb390335577d5bc10a8ea
                 });
 
             modelBuilder.Entity("LibraryManagement.Core.Entities.CategoryEntity", b =>
@@ -147,41 +119,12 @@ namespace LibraryManagement.Infrastructure.Migrations
                     b.ToTable("LatestNews");
                 });
 
-<<<<<<< HEAD
-            modelBuilder.Entity("LibraryManagement.Core.Entities.UserEntity", b =>
-=======
             modelBuilder.Entity("LibraryManagement.Core.Entities.ReviewsEntity", b =>
->>>>>>> 514a5cfae5f6d7b5c62eb390335577d5bc10a8ea
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-<<<<<<< HEAD
-                    b.Property<string>("Avatar")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("CreationDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UserName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("UserRoleEnum")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserStatusEnum")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Users");
-=======
                     b.Property<Guid>("BookId")
                         .HasColumnType("uniqueidentifier");
 
@@ -204,7 +147,6 @@ namespace LibraryManagement.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Reviews");
->>>>>>> 514a5cfae5f6d7b5c62eb390335577d5bc10a8ea
                 });
 #pragma warning restore 612, 618
         }
