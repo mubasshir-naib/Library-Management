@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LibraryManagement.Api",
+    "\\LibraryManagement.Core",
+    "\\LibraryManagement.Core\\Entities",
+    "\\LibraryManagement.Core\\Enums"
+  ],
+  "SelectedNode": "\\LibraryManagement.Api\\LibraryManagement.Api.csproj",
+  "PreviewInSolutionExplorer": false
+}

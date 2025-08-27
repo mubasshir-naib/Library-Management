@@ -7,5 +7,10 @@ namespace LibraryManagement.Infrastructure.Data
     {
         public DbSet<CategoryEntity>Categories { get; set; }
         public DbSet<NewsEntity> LatestNews { get; set; }
+        public DbSet<UserEntity> Users { get; set; }
+        public DbSet<BorrowEntity> Borrows { get; set; }
+
+
+
     }
 }
