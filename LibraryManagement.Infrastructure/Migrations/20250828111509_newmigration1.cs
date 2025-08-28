@@ -5,7 +5,7 @@
 namespace LibraryManagement.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class borrow : Migration
+    public partial class newmigration1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

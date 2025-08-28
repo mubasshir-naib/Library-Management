@@ -1,4 +1,6 @@
-﻿using LibraryManagement.Infrastructure.Data;
+﻿using LibraryManagement.Core.Interfaces;
+using LibraryManagement.Infrastructure.Data;
+using LibraryManagement.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,6 +21,7 @@ namespace LibraryManagement.Infrastructure
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
 
             });
+            services.AddScoped<IBorrowBookRepository, BorrowBookRepository>();
             return services;
         }
     }
