@@ -7,6 +7,11 @@ namespace LibraryManagement.Infrastructure.Data
     {
         public DbSet<CategoryEntity> Categories { get; set; }
         public DbSet<NewsEntity> LatestNews { get; set; }
+
+        public DbSet<UserEntity> Users { get; set; }
+        public DbSet<BorrowEntity> Borrows { get; set; }
+
+
         public DbSet<ReviewsEntity> Reviews { get; set; }
         public DbSet<BooksEntity> Books { get; set; }
 
@@ -14,12 +19,15 @@ namespace LibraryManagement.Infrastructure.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-           
             modelBuilder.Entity<BooksEntity>()
                 .Property(r => r.Status)
                 .HasConversion<string>();
 
+            modelBuilder.Entity<UserEntity>()
+                .Property(r => r.)
+                .HasConversion<string>();
+
         }
+
     }
 }
