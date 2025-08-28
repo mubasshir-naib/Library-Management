@@ -90,8 +90,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -102,8 +106,7 @@
               "RelativeToolTip": "LibraryManagement.Infrastructure\\Migrations\\20250827132243_addedentity1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T13:22:43.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T13:22:43.238Z"
             },
             {
               "$type": "Document",
@@ -115,8 +118,7 @@
               "RelativeToolTip": "LibraryManagement.Core\\Enums\\BookStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T13:04:21.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-27T13:04:21.529Z"
             },
             {
               "$type": "Document",
@@ -334,10 +336,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAABSwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T05:28:35.035Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
