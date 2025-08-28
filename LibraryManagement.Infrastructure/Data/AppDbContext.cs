@@ -24,7 +24,7 @@ namespace LibraryManagement.Infrastructure.Data
                 .HasConversion<string>();
 
             modelBuilder.Entity<UserEntity>()
-                .Property(r => r.)
+                .Property(r => r.UserRoleEnum)
                 .HasConversion<string>();
 
         }
