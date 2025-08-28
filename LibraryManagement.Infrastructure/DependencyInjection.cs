@@ -22,6 +22,7 @@ namespace LibraryManagement.Infrastructure
 
             });
             services.AddScoped<IManageBooksRepository, ManageBooksRepository>();
+            services.AddScoped<IManageCategoryRepository, ManageCategoryRepository>();
             return services;
         }
     }
