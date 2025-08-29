@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.infrastructure\\repositories\\managebooksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\repositories\\managebooksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.infrastructure\\repositories\\borrowbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\repositories\\borrowbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.core\\dto\\managebookdto\\bookresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\dto\\managebookdto\\bookresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.api\\controllers\\managebookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A9FB439-473F-4D39-A3F2-852C11FD3963}|LibraryManagement.Api\\LibraryManagement.Api.csproj|solutionrelative:librarymanagement.api\\controllers\\managebookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.application\\commands\\managebooks\\updatebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\commands\\managebooks\\updatebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.core\\interfaces\\imanagebooksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\interfaces\\imanagebooksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.application\\queries\\managebooks\\getbooksqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +39,8 @@
       "RelativeMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\commands\\managebooks\\addbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.core\\interfaces\\imanagebooksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\interfaces\\imanagebooksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.infrastructure\\repositories\\managebooksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\repositories\\managebooksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.infrastructure\\repositories\\borrowbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|solutionrelative:librarymanagement.infrastructure\\repositories\\borrowbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.core\\dto\\managebookdto\\bookresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA9ABAED-742B-4F58-9020-E642A1276EFB}|LibraryManagement.Core\\LibraryManagement.Core.csproj|solutionrelative:librarymanagement.core\\dto\\managebookdto\\bookresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E6D0DD8-59DF-4610-AB7C-025559AEA6C6}|LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.infrastructure\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\commands\\managecategories\\addcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.application\\commands\\managebooks\\updatebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\commands\\managebooks\\updatebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|c:\\users\\bs01627\\documents\\brainstation\\second project\\library-management\\librarymanagement.application\\commands\\managebooks\\deletebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0E309EE-EF35-45A9-8D1F-96E21D20E3FE}|LibraryManagement.Application\\LibraryManagement.Application.csproj|solutionrelative:librarymanagement.application\\commands\\managebooks\\deletebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -174,24 +174,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddBookCommand.cs",
-              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Commands\\ManageBooks\\AddBookCommand.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Commands\\ManageBooks\\AddBookCommand.cs",
-              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Commands\\ManageBooks\\AddBookCommand.cs*",
-              "RelativeToolTip": "LibraryManagement.Application\\Commands\\ManageBooks\\AddBookCommand.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T06:42:57.161Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "DeleteCategoryCommand.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Commands\\ManageCategories\\DeleteCategoryCommand.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Application\\Commands\\ManageCategories\\DeleteCategoryCommand.cs",
@@ -199,57 +190,43 @@
               "RelativeToolTip": "LibraryManagement.Application\\Commands\\ManageCategories\\DeleteCategoryCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T11:50:29.356Z",
+              "WhenOpened": "2025-08-28T11:50:29.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Dto\\ManageBookDto\\BookResponseDto.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Core\\Dto\\ManageBookDto\\BookResponseDto.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Dto\\ManageBookDto\\BookResponseDto.cs",
+              "RelativeToolTip": "LibraryManagement.Core\\Dto\\ManageBookDto\\BookResponseDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T13:40:59.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetBooksQueries.cs",
-              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Queries\\ManageBooks\\GetBooksQueries.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Queries\\ManageBooks\\GetBooksQueries.cs",
-              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Queries\\ManageBooks\\GetBooksQueries.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Queries\\ManageBooks\\GetBooksQueries.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
+              "Title": "BorrowBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Repositories\\BorrowBookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\BorrowBookRepository.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Repositories\\BorrowBookRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\BorrowBookRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAD0AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T07:40:14.212Z",
+              "WhenOpened": "2025-08-29T07:11:54.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ManageBooksController.cs",
-              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\Controllers\\ManageBooksController.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Api\\Controllers\\ManageBooksController.cs",
-              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\Controllers\\ManageBooksController.cs",
-              "RelativeToolTip": "LibraryManagement.Api\\Controllers\\ManageBooksController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAABEAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T07:07:46.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IManageBooksRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Interfaces\\IManageBooksRepository.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Core\\Interfaces\\IManageBooksRepository.cs",
-              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Interfaces\\IManageBooksRepository.cs",
-              "RelativeToolTip": "LibraryManagement.Core\\Interfaces\\IManageBooksRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T06:27:39.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ManageBooksRepository.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Repositories\\ManageBooksRepository.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\ManageBooksRepository.cs",
-              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Repositories\\ManageBooksRepository.cs*",
-              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\ManageBooksRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Repositories\\ManageBooksRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\ManageBooksRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T06:19:01.729Z",
               "EditorCaption": ""
@@ -257,19 +234,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BorrowBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Repositories\\BorrowBookRepository.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\BorrowBookRepository.cs",
-              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Repositories\\BorrowBookRepository.cs",
-              "RelativeToolTip": "LibraryManagement.Infrastructure\\Repositories\\BorrowBookRepository.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "GetBooksQueries.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Queries\\ManageBooks\\GetBooksQueries.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Queries\\ManageBooks\\GetBooksQueries.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Queries\\ManageBooks\\GetBooksQueries.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Queries\\ManageBooks\\GetBooksQueries.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T07:11:54.797Z",
+              "WhenOpened": "2025-08-28T07:40:14.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageBooksController.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\Controllers\\ManageBooksController.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Api\\Controllers\\ManageBooksController.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\Controllers\\ManageBooksController.cs",
+              "RelativeToolTip": "LibraryManagement.Api\\Controllers\\ManageBooksController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T07:07:46.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "IManageBooksRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Interfaces\\IManageBooksRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Core\\Interfaces\\IManageBooksRepository.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Interfaces\\IManageBooksRepository.cs",
+              "RelativeToolTip": "LibraryManagement.Core\\Interfaces\\IManageBooksRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T06:27:39.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateBookCommand.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Commands\\ManageBooks\\UpdateBookCommand.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Commands\\ManageBooks\\UpdateBookCommand.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Commands\\ManageBooks\\UpdateBookCommand.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Commands\\ManageBooks\\UpdateBookCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T09:03:42.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddBookCommand.cs",
+              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Commands\\ManageBooks\\AddBookCommand.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.Application\\Commands\\ManageBooks\\AddBookCommand.cs",
+              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Commands\\ManageBooks\\AddBookCommand.cs",
+              "RelativeToolTip": "LibraryManagement.Application\\Commands\\ManageBooks\\AddBookCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T06:42:57.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\DependencyInjection.cs",
@@ -277,25 +304,11 @@
               "RelativeToolTip": "LibraryManagement.Core\\DependencyInjection.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T05:28:35.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T05:28:35.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Dto\\ManageBookDto\\BookResponseDto.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Core\\Dto\\ManageBookDto\\BookResponseDto.cs",
-              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Dto\\ManageBookDto\\BookResponseDto.cs",
-              "RelativeToolTip": "LibraryManagement.Core\\Dto\\ManageBookDto\\BookResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T13:40:59.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Services\\FileService.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Services\\FileService.cs",
@@ -303,12 +316,11 @@
               "RelativeToolTip": "LibraryManagement.Infrastructure\\Services\\FileService.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T04:52:01.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T04:52:01.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "BorrowController.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\Controllers\\BorrowController.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Api\\Controllers\\BorrowController.cs",
@@ -316,16 +328,11 @@
               "RelativeToolTip": "LibraryManagement.Api\\Controllers\\BorrowController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T07:11:16.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-08-29T07:11:16.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BooksEntity.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Entities\\BooksEntity.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\Entities\\BooksEntity.cs",
@@ -337,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IFileService.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Interfaces\\IFileService.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\Interfaces\\IFileService.cs",
@@ -349,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ManageCategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Repositories\\ManageCategoryRepository.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Repositories\\ManageCategoryRepository.cs",
@@ -361,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "BookStatus.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Enums\\BookStatus.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\Enums\\BookStatus.cs",
@@ -373,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "BookCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Dto\\ManageBookDto\\BookCreateDto.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\Dto\\ManageBookDto\\BookCreateDto.cs",
@@ -385,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AppEnvironment.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\Services\\AppEnvironment.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Api\\Services\\AppEnvironment.cs",
@@ -397,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Api\\DependencyInjection.cs",
@@ -409,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ManageCategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\Controllers\\ManageCategoriesController.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Api\\Controllers\\ManageCategoriesController.cs",
@@ -421,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\DependencyInjection.cs",
@@ -433,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IAppEnvironment.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Interfaces\\IAppEnvironment.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\Interfaces\\IAppEnvironment.cs",
@@ -445,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "LibraryManagement.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
               "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\LibraryManagement.Infrastructure.csproj",
@@ -457,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\Program.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Api\\Program.cs",
@@ -469,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "LibraryManagement.Api.csproj",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\LibraryManagement.Api.csproj",
               "RelativeDocumentMoniker": "LibraryManagement.Api\\LibraryManagement.Api.csproj",
@@ -481,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Api\\appsettings.json",
               "RelativeDocumentMoniker": "LibraryManagement.Api\\appsettings.json",
@@ -493,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "LibraryManagement.Core.csproj",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\LibraryManagement.Core.csproj",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\LibraryManagement.Core.csproj",
@@ -505,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IManageCategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Core\\Interfaces\\IManageCategoryRepository.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Core\\Interfaces\\IManageCategoryRepository.cs",
@@ -517,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Infrastructure\\Data\\AppDbContext.cs",
@@ -529,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "GetCategoriesQueries.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Queries\\ManageCategories\\GetCategoriesQueries.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Application\\Queries\\ManageCategories\\GetCategoriesQueries.cs",
@@ -541,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "UpdateCategoryCommand.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Commands\\ManageCategories\\UpdateCategoryCommand.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Application\\Commands\\ManageCategories\\UpdateCategoryCommand.cs",
@@ -553,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "AddCategoryCommand.cs",
               "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Commands\\ManageCategories\\AddCategoryCommand.cs",
               "RelativeDocumentMoniker": "LibraryManagement.Application\\Commands\\ManageCategories\\AddCategoryCommand.cs",
@@ -562,18 +569,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T11:19:51.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "UpdateBookCommand.cs",
-              "DocumentMoniker": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Commands\\ManageBooks\\UpdateBookCommand.cs",
-              "RelativeDocumentMoniker": "LibraryManagement.Application\\Commands\\ManageBooks\\UpdateBookCommand.cs",
-              "ToolTip": "C:\\Users\\BS01627\\Documents\\Brainstation\\Second Project\\Library-Management\\LibraryManagement.Application\\Commands\\ManageBooks\\UpdateBookCommand.cs",
-              "RelativeToolTip": "LibraryManagement.Application\\Commands\\ManageBooks\\UpdateBookCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T09:03:42.007Z"
             },
             {
               "$type": "Document",

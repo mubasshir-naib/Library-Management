@@ -24,6 +24,7 @@ namespace LibraryManagement.Infrastructure.Repositories
                 var category = await dbContext.Categories.FirstOrDefaultAsync(x => x.Id == Book.Id);
                 var bookDto = new BookResponseDto
                 {
+                    Id = Book.Id,
                     Title = Book.Title,
                     Author = Book.Author,
                     Category = category?.Name ?? "null",
@@ -74,10 +75,10 @@ namespace LibraryManagement.Infrastructure.Repositories
             //Map to response DTO
             var responseDto = new BookResponseDto
             {
-
+                Id = book.Id,
                 Title = book.Title,
                 Author = book.Author,
-                Category = category?.Name?? "null",
+                Category = category?.Name ?? "null",
                 NumberOfCopy = book.NumberOfCopy,
                 CoverImage = book.CoverImage,
                 PdfUrl = book.PdfUrl,
@@ -98,26 +99,43 @@ namespace LibraryManagement.Infrastructure.Repositories
                 return true;
             }else return false;
         }
-        public async Task<BooksEntity>UpdateBook(BooksEntity entity,Guid id)
+        public async Task<BookResponseDto>UpdateBook(BookCreateDto dto,Guid id)
         {
             var book = await dbContext.Books.FirstOrDefaultAsync(x => x.Id == id);
+            string coverImagePath = await _fileService.SaveFileAsync(dto.CoverImage, "covers", new[] { ".png", ".jpg" });
+            string pdfPath = await _fileService.SaveFileAsync(dto.PdfUrl, "books", new[] { ".pdf" });
+            string audioPath = await _fileService.SaveFileAsync(dto.AudioClip, "audio", new[] { ".mp3", ".wav", ".mp4" });
+            var responseDto = new BookResponseDto();
             if (book != null)
             {
-                book.Author = entity.Author;
-                book.Title = entity.Title;
-                book.Author = entity.Author;
-                book.CategoryId = entity.CategoryId;
-                book.NumberOfCopy = entity.NumberOfCopy;
-                book.CoverImage = entity.CoverImage;
-                book.PdfUrl = entity.PdfUrl;
-                book.AudioClip = entity.AudioClip;
-                book.Description = entity.Description;
+               
+                book.Title = dto.Title;
+                book.Author = dto.Author;
+                book.CategoryId = dto.CategoryId;
+                book.NumberOfCopy = dto.NumberOfCopy;
+                book.CoverImage =coverImagePath;
+                book.PdfUrl = pdfPath;
+                book.AudioClip = audioPath;
+                book.Description = dto.Description;
 
                 await dbContext.SaveChangesAsync();
-                return book;
+                var category = await dbContext.Categories.FirstOrDefaultAsync(c => c.Id == dto.CategoryId);
+                responseDto = new BookResponseDto
+                {
+                    Id = book.Id,
+                    Author = dto.Author,
+                    Title = dto.Title,
+                    Category = category?.Name ?? "Null",
+                    NumberOfCopy = dto.NumberOfCopy,
+                    CoverImage = coverImagePath,
+                    PdfUrl = pdfPath,
+                    AudioClip = audioPath,
+                    Description = dto.Description,
+                };
+                return responseDto;
 
             }
-            else return entity;
+            else return responseDto;
         }
     }
 }

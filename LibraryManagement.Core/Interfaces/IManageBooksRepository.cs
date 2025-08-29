@@ -14,6 +14,6 @@ namespace LibraryManagement.Core.Interfaces
         Task<BooksEntity> GetBooksbyId(Guid id);
         Task<BookResponseDto> AddBooks(BookCreateDto entity);
         Task<bool> DeleteBooksbyId(Guid id);
-        Task<BooksEntity> UpdateBook(BooksEntity entity, Guid id);
+        Task<BookResponseDto> UpdateBook(BookCreateDto entity, Guid id);
     }
 }
