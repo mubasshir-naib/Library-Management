@@ -1,4 +1,6 @@
-﻿using LibraryManagement.Application;
+﻿using LibraryManagement.Api.Services;
+using LibraryManagement.Application;
+using LibraryManagement.Core.Interfaces;
 using LibraryManagement.Infrastructure;
 
 namespace LibraryManagement.Api
@@ -9,6 +11,7 @@ namespace LibraryManagement.Api
         {
             services.AddApplicationDI()
                 .AddInfrastructureDI(configuration);
+            services.AddSingleton<IAppEnvironment, AppEnvironment>();
             return services;
         }
     }

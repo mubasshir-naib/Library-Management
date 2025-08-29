@@ -1,4 +1,5 @@
-﻿using LibraryManagement.Core.Entities;
+﻿using LibraryManagement.Core.Dto.ManageBookDto;
+using LibraryManagement.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace LibraryManagement.Core.Interfaces
     {
         Task<IEnumerable<BooksEntity>> GetBooks();
         Task<BooksEntity> GetBooksbyId(Guid id);
-        Task<BooksEntity> AddBooks(BooksEntity entity);
+        Task<BooksEntity> AddBooks(BookCreateDto entity);
         Task<bool> DeleteBooksbyId(Guid id);
         Task<BooksEntity> UpdateBook(BooksEntity entity, Guid id);
     }

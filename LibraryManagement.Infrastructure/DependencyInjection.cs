@@ -1,6 +1,7 @@
 ﻿using LibraryManagement.Core.Interfaces;
 using LibraryManagement.Infrastructure.Data;
 using LibraryManagement.Infrastructure.Repositories;
+using LibraryManagement.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -23,6 +24,7 @@ namespace LibraryManagement.Infrastructure
             });
             services.AddScoped<IManageBooksRepository, ManageBooksRepository>();
             services.AddScoped<IManageCategoryRepository, ManageCategoryRepository>();
+            services.AddScoped<IFileService, FileService>();
             return services;
         }
     }
