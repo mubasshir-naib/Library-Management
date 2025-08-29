@@ -22,6 +22,7 @@ namespace LibraryManagement.Infrastructure
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
 
             });
+            services.AddScoped<IBorrowBookRepository, BorrowBookRepository>();
             services.AddScoped<IManageBooksRepository, ManageBooksRepository>();
             services.AddScoped<IManageCategoryRepository, ManageCategoryRepository>();
             services.AddScoped<IFileService, FileService>();

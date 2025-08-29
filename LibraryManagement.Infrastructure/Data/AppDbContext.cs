@@ -23,6 +23,14 @@ namespace LibraryManagement.Infrastructure.Data
                 .Property(r => r.Status)
                 .HasConversion<string>();
 
+            modelBuilder.Entity<UserEntity>(e =>
+            {
+                e.Property(r => r.UserRoleEnum).HasConversion<string>();
+                e.Property(r => r.UserStatusEnum).HasConversion<string>();
+            });
+
+            modelBuilder.Entity<BorrowEntity>().Property(r=>r.BorrowRequestStatusEnum).HasConversion<string>();
+             
             modelBuilder.Entity<UserEntity>()
                 .Property(r => r.UserRoleEnum)
                 .HasConversion<string>();
