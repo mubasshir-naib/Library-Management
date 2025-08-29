@@ -16,29 +16,37 @@ namespace LibraryManagement.Infrastructure.Repositories
     {
         private readonly IFileService _fileService= fileService;
 
-        public async Task<IEnumerable<BooksEntity>> GetBooks()
+        public async Task<IEnumerable<BookResponseDto>> GetBooks()
         {
-            return await dbContext.Books.ToListAsync();
+            var Books = await dbContext.Books.ToListAsync();
+            var BooksDto= new List<BookResponseDto>();
+            foreach (var Book in Books) {
+                var category = await dbContext.Categories.FirstOrDefaultAsync(x => x.Id == Book.Id);
+                var bookDto = new BookResponseDto
+                {
+                    Title = Book.Title,
+                    Author = Book.Author,
+                    Category = category?.Name ?? "null",
+                    NumberOfCopy = Book.NumberOfCopy,
+                    CoverImage = Book.CoverImage,
+                    PdfUrl = Book.PdfUrl,
+                    AudioClip = Book.AudioClip,
+                    Description = Book.Description,
+                };
+                BooksDto.Add(bookDto);
+            }
+            return BooksDto;
         }
         public async Task<BooksEntity> GetBooksbyId(Guid id)
         {
             return await dbContext.Books.FirstOrDefaultAsync(x=>x.Id == id);
         }
-        public async Task<BooksEntity>AddBooks(BookCreateDto dto)
+        public async Task<BookResponseDto>AddBooks(BookCreateDto dto)
         {
-
-
-            // Save files and get relative paths
-            //string coverImagePath = await _fileService.SaveFileAsync(dto.CoverImage, "covers");
-            //string pdfPath = await _fileService.SaveFileAsync(dto.PdfUrl, "books");
-            //string audioPath = await _fileService.SaveFileAsync(dto.AudioClip, "audio");
-            string coverImagePath;
-            string pdfPath;
-            string audioPath;
           
-            coverImagePath = await _fileService.SaveFileAsync(dto.CoverImage, "covers", new[] { ".png", ".jpg" });
-            pdfPath = await _fileService.SaveFileAsync(dto.PdfUrl, "books", new[] { ".pdf" });
-            audioPath = await _fileService.SaveFileAsync(dto.AudioClip, "audio", new[] { ".mp3", ".wav", ".mp4" });
+            string coverImagePath = await _fileService.SaveFileAsync(dto.CoverImage, "covers", new[] { ".png", ".jpg" });
+            string pdfPath = await _fileService.SaveFileAsync(dto.PdfUrl, "books", new[] { ".pdf" });
+            string audioPath = await _fileService.SaveFileAsync(dto.AudioClip, "audio", new[] { ".mp3", ".wav", ".mp4" });
            
             var book = new BooksEntity
             {
@@ -51,34 +59,34 @@ namespace LibraryManagement.Infrastructure.Repositories
                 CoverImage = coverImagePath,
                 PdfUrl = pdfPath,
                 AudioClip = audioPath,
-                Status = BookStatus.Active, // DefaultBookStatus.Available
-                Tag = string.Empty, // Default
+                Status = BookStatus.Active, 
+                Tag = string.Empty, 
                 Publisher = null,
                 PublishedDate = null,
                 ISBN = null
             };
 
-            // Save to database
-            //  await dbContext.Books.AddAsync(book);
             dbContext.Books.Add(book);
             await dbContext.SaveChangesAsync();
 
-            // Map to response DTO
-            //var responseDto = new BookResponseDto
-            //{
-                
-            //    Title = book.Title,
-            //    Author = book.Author,
-            //    Category = "abc",
-            //    NumberOfCopy = book.NumberOfCopy,
-            //    CoverImage = book.CoverImage,
-            //    PdfUrl = book.PdfUrl,
-            //    AudioClip = book.AudioClip,
-            //    Description = book.Description,
-                
-            //};
+            var category= await dbContext.Categories.FirstOrDefaultAsync(x=>x.Id ==book.CategoryId);
 
-            return book;
+            //Map to response DTO
+            var responseDto = new BookResponseDto
+            {
+
+                Title = book.Title,
+                Author = book.Author,
+                Category = category?.Name?? "null",
+                NumberOfCopy = book.NumberOfCopy,
+                CoverImage = book.CoverImage,
+                PdfUrl = book.PdfUrl,
+                AudioClip = book.AudioClip,
+                Description = book.Description,
+
+            };
+
+            return responseDto;
         }
         public async Task<bool> DeleteBooksbyId(Guid id)
         {

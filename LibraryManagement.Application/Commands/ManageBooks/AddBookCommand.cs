@@ -5,14 +5,15 @@ using MediatR;
 
 namespace LibraryManagement.Application.Commands.ManageBooks
 {
-    public record AddBookCommand(BookCreateDto Book):IRequest<BooksEntity>;
+    public record AddBookCommand(BookCreateDto Book):IRequest<BookResponseDto>;
 
     public class AddBookCommandHandler(IManageBooksRepository manageBooksRepository)
-        : IRequestHandler<AddBookCommand, BooksEntity>
+        : IRequestHandler<AddBookCommand, BookResponseDto>
     {
-        public async Task<BooksEntity> Handle(AddBookCommand request, CancellationToken cancellationToken)
+        public async Task<BookResponseDto> Handle(AddBookCommand request, CancellationToken cancellationToken)
         {
             return await manageBooksRepository.AddBooks(request.Book);
+            
         }
     }
 }

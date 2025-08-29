@@ -13,12 +13,7 @@ namespace LibraryManagement.Infrastructure.Services
 {
     public class FileService :IFileService
     {
-        //private readonly IWebHostEnvironment _environment;
-
-        //public FileService(IWebHostEnvironment environment)
-        //{
-        //    _environment = environment;
-        //}
+        
         private readonly IAppEnvironment _appEnv;
         private readonly ILogger<FileService> _logger;
 
@@ -35,14 +30,6 @@ namespace LibraryManagement.Infrastructure.Services
                 _logger.LogError("No file provided for upload in folder: {Folder}", folder);
                 throw new ArgumentException("No file provided.");
             }
-
-            //// Validate file
-            //if (!IsValidFile(file, allowedExtensions,100))
-            //{
-            //    _logger.LogError("Invalid file format for {FileName}. Allowed extensions: {Extensions}",
-            //        file.FileName, string.Join(", ", allowedExtensions));
-            //    throw new ArgumentException($"Invalid file format. Allowed extensions: {string.Join(", ", allowedExtensions)}");
-            //}
 
             // Create folder path
             string uploadsDir = Path.Combine(_appEnv.WebRootPath, "Uploads", folder);

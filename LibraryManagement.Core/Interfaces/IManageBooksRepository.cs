@@ -10,9 +10,9 @@ namespace LibraryManagement.Core.Interfaces
 {
     public interface IManageBooksRepository
     {
-        Task<IEnumerable<BooksEntity>> GetBooks();
+        Task<IEnumerable<BookResponseDto>> GetBooks();
         Task<BooksEntity> GetBooksbyId(Guid id);
-        Task<BooksEntity> AddBooks(BookCreateDto entity);
+        Task<BookResponseDto> AddBooks(BookCreateDto entity);
         Task<bool> DeleteBooksbyId(Guid id);
         Task<BooksEntity> UpdateBook(BooksEntity entity, Guid id);
     }
