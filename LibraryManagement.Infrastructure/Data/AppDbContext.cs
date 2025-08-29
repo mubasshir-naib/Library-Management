@@ -31,6 +31,9 @@ namespace LibraryManagement.Infrastructure.Data
 
             modelBuilder.Entity<BorrowEntity>().Property(r=>r.BorrowRequestStatusEnum).HasConversion<string>();
              
+            modelBuilder.Entity<UserEntity>()
+                .Property(r => r.UserRoleEnum)
+                .HasConversion<string>();
 
         }
 
