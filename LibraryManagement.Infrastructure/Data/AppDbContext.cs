@@ -15,6 +15,8 @@ namespace LibraryManagement.Infrastructure.Data
         public DbSet<ReviewsEntity> Reviews { get; set; }
         public DbSet<BooksEntity> Books { get; set; }
 
+        public DbSet<HelpfulCountEntity> HelpfulCount { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
