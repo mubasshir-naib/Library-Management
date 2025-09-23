@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.3.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.19">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -20,8 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="wwwroot\uploads\audio\" />
+    <Folder Include="wwwroot\uploads\books\" />
+    <Folder Include="wwwroot\uploads\covers\" />
   </ItemGroup>
 
 </Project>

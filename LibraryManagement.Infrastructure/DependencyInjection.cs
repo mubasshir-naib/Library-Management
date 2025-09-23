@@ -1,4 +1,7 @@
-﻿using LibraryManagement.Infrastructure.Data;
+﻿using LibraryManagement.Core.Interfaces;
+using LibraryManagement.Infrastructure.Data;
+using LibraryManagement.Infrastructure.Repositories;
+using LibraryManagement.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,6 +22,16 @@ namespace LibraryManagement.Infrastructure
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
 
             });
+            services.AddScoped<IBorrowBookRepository, BorrowBookRepository>();
+            services.AddScoped<IManageBooksRepository, ManageBooksRepository>();
+            services.AddScoped<IManageCategoryRepository, ManageCategoryRepository>();
+
+            services.AddScoped<IReviewBookRepository, ReviewBookRepository>();
+
+
+            services.AddScoped<IUserInterface,UserRepository>();
+            services.AddScoped<IFileService, FileService>();
+
             return services;
         }
     }
