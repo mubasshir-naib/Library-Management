@@ -1,4 +1,10 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using LibraryManagement.Core.Interfaces;
+using LibraryManagement.Infrastructure.Data;
+using LibraryManagement.Infrastructure.Repositories;
+using LibraryManagement.Infrastructure.Services;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +15,23 @@ namespace LibraryManagement.Infrastructure
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddInfrastructureDI(this IServiceCollection services)
+        public static IServiceCollection AddInfrastructureDI(this IServiceCollection services,IConfiguration configuration)
         {
+            services.AddDbContext<AppDbContext>(options =>
+            {
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+
+            });
+            services.AddScoped<IBorrowBookRepository, BorrowBookRepository>();
+            services.AddScoped<IManageBooksRepository, ManageBooksRepository>();
+            services.AddScoped<IManageCategoryRepository, ManageCategoryRepository>();
+
+            services.AddScoped<IReviewBookRepository, ReviewBookRepository>();
+
+
+            services.AddScoped<IUserInterface,UserRepository>();
+            services.AddScoped<IFileService, FileService>();
+
             return services;
         }
     }
