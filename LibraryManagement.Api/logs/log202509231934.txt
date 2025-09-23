@@ -1,0 +1,56 @@
+2025-09-23 19:34:09.961 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/api/manage-books - null null
+2025-09-23 19:34:09.973 +06:00 [INF] Executing endpoint 'LibraryManagement.Api.Controllers.ManageBooksController.GetBooksAsync (LibraryManagement.Api)'
+2025-09-23 19:34:09.988 +06:00 [INF] Route matched with {action = "GetBooks", controller = "ManageBooks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBooksAsync() on controller LibraryManagement.Api.Controllers.ManageBooksController (LibraryManagement.Api).
+2025-09-23 19:34:09.994 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-23 19:34:10.101 +06:00 [INF] Fetching All books at "2025-09-23T13:34:10.1014548Z"
+2025-09-23 19:34:10.980 +06:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AudioClip], [b].[Author], [b].[CategoryId], [b].[CoverImage], [b].[Description], [b].[ISBN], [b].[NumberOfCopy], [b].[PdfUrl], [b].[PublishedDate], [b].[Publisher], [b].[Status], [b].[Tag], [b].[Title]
+FROM [Books] AS [b]
+2025-09-23 19:34:11.173 +06:00 [INF] Executed DbCommand (19ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 19:34:11.181 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 19:34:11.184 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 19:34:11.188 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 19:34:11.191 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 19:34:11.194 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 19:34:11.197 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 19:34:11.199 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 19:34:11.209 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryManagement.Core.Dto.ManageBookDto.BookResponseDto, LibraryManagement.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-23 19:34:11.224 +06:00 [INF] Executed action LibraryManagement.Api.Controllers.ManageBooksController.GetBooksAsync (LibraryManagement.Api) in 1229.1678ms
+2025-09-23 19:34:11.225 +06:00 [INF] Executed endpoint 'LibraryManagement.Api.Controllers.ManageBooksController.GetBooksAsync (LibraryManagement.Api)'
+2025-09-23 19:34:11.232 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/api/manage-books - 200 null application/json; charset=utf-8 1271.3824ms
+2025-09-23 19:34:36.403 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/api/manage-books/3c2e8c8e-d409-46c8-acec-0840605fa342 - null null
+2025-09-23 19:34:36.409 +06:00 [INF] Executing endpoint 'LibraryManagement.Api.Controllers.ManageBooksController.GetBooksByIdAsync (LibraryManagement.Api)'
+2025-09-23 19:34:36.418 +06:00 [INF] Route matched with {action = "GetBooksById", controller = "ManageBooks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBooksByIdAsync(System.Guid) on controller LibraryManagement.Api.Controllers.ManageBooksController (LibraryManagement.Api).
+2025-09-23 19:34:36.450 +06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[AudioClip], [b].[Author], [b].[CategoryId], [b].[CoverImage], [b].[Description], [b].[ISBN], [b].[NumberOfCopy], [b].[PdfUrl], [b].[PublishedDate], [b].[Publisher], [b].[Status], [b].[Tag], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0
+2025-09-23 19:34:36.453 +06:00 [INF] Booksby id: 3c2e8c8e-d409-46c8-acec-0840605fa342
+2025-09-23 19:34:36.454 +06:00 [INF] Executing OkObjectResult, writing value of type 'LibraryManagement.Core.Entities.BooksEntity'.
+2025-09-23 19:34:36.463 +06:00 [INF] Executed action LibraryManagement.Api.Controllers.ManageBooksController.GetBooksByIdAsync (LibraryManagement.Api) in 44.1854ms
+2025-09-23 19:34:36.465 +06:00 [INF] Executed endpoint 'LibraryManagement.Api.Controllers.ManageBooksController.GetBooksByIdAsync (LibraryManagement.Api)'
+2025-09-23 19:34:36.466 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/api/manage-books/3c2e8c8e-d409-46c8-acec-0840605fa342 - 200 null application/json; charset=utf-8 63.5948ms

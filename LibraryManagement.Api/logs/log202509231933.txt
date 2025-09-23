@@ -1,0 +1,13 @@
+2025-09-23 19:33:45.106 +06:00 [INF] Now listening on: https://localhost:7243
+2025-09-23 19:33:45.134 +06:00 [INF] Now listening on: http://localhost:5117
+2025-09-23 19:33:45.181 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-23 19:33:45.183 +06:00 [INF] Hosting environment: Development
+2025-09-23 19:33:45.183 +06:00 [INF] Content root path: C:\Users\BS01627\Documents\Brainstation\Second Project\Library-Management\LibraryManagement.Api
+2025-09-23 19:33:45.897 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/swagger/index.html - null null
+2025-09-23 19:33:46.080 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/swagger/index.html - 200 null text/html;charset=utf-8 188.8951ms
+2025-09-23 19:33:46.119 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/_vs/browserLink - null null
+2025-09-23 19:33:46.119 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-23 19:33:46.150 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 30.7684ms
+2025-09-23 19:33:46.173 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.5239ms
+2025-09-23 19:33:46.429 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/swagger/v1/swagger.json - null null
+2025-09-23 19:33:46.446 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.8073ms

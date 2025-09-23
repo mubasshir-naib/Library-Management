@@ -1,0 +1,67 @@
+2025-09-23 20:05:06.990 +06:00 [INF] Now listening on: https://localhost:7243
+2025-09-23 20:05:07.019 +06:00 [INF] Now listening on: http://localhost:5117
+2025-09-23 20:05:07.052 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-23 20:05:07.053 +06:00 [INF] Hosting environment: Development
+2025-09-23 20:05:07.054 +06:00 [INF] Content root path: C:\Users\BS01627\Documents\Brainstation\Second Project\Library-Management\LibraryManagement.Api
+2025-09-23 20:05:07.632 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/swagger/index.html - null null
+2025-09-23 20:05:07.798 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/swagger/index.html - 200 null text/html;charset=utf-8 172.0716ms
+2025-09-23 20:05:07.806 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-23 20:05:07.806 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/_vs/browserLink - null null
+2025-09-23 20:05:07.816 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 10.4541ms
+2025-09-23 20:05:07.856 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.4764ms
+2025-09-23 20:05:07.936 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/swagger/v1/swagger.json - null null
+2025-09-23 20:05:07.951 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.537ms
+2025-09-23 20:05:17.270 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/api/user - null null
+2025-09-23 20:05:17.279 +06:00 [INF] Executing endpoint 'LibraryManagement.Api.Controllers.UserController.GetUserAsync (LibraryManagement.Api)'
+2025-09-23 20:05:17.292 +06:00 [INF] Route matched with {action = "GetUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserAsync() on controller LibraryManagement.Api.Controllers.UserController (LibraryManagement.Api).
+2025-09-23 20:05:17.296 +06:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-23 20:05:18.185 +06:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Avatar], [u].[CreationDate], [u].[Email], [u].[UserName], [u].[UserRoleEnum], [u].[UserStatusEnum]
+FROM [Users] AS [u]
+2025-09-23 20:05:18.260 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryManagement.Core.Entities.UserEntity, LibraryManagement.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-23 20:05:18.278 +06:00 [INF] Executed action LibraryManagement.Api.Controllers.UserController.GetUserAsync (LibraryManagement.Api) in 981.6384ms
+2025-09-23 20:05:18.279 +06:00 [INF] Executed endpoint 'LibraryManagement.Api.Controllers.UserController.GetUserAsync (LibraryManagement.Api)'
+2025-09-23 20:05:18.286 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/api/user - 200 null application/json; charset=utf-8 1016.7475ms
+2025-09-23 20:05:29.785 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7243/api/manage-books - null null
+2025-09-23 20:05:29.791 +06:00 [INF] Executing endpoint 'LibraryManagement.Api.Controllers.ManageBooksController.GetBooksAsync (LibraryManagement.Api)'
+2025-09-23 20:05:29.796 +06:00 [INF] Route matched with {action = "GetBooks", controller = "ManageBooks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBooksAsync() on controller LibraryManagement.Api.Controllers.ManageBooksController (LibraryManagement.Api).
+2025-09-23 20:05:29.802 +06:00 [INF] Fetching All books at "2025-09-23T14:05:29.8021378Z"
+2025-09-23 20:05:29.821 +06:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AudioClip], [b].[Author], [b].[CategoryId], [b].[CoverImage], [b].[Description], [b].[ISBN], [b].[NumberOfCopy], [b].[PdfUrl], [b].[PublishedDate], [b].[Publisher], [b].[Status], [b].[Tag], [b].[Title]
+FROM [Books] AS [b]
+2025-09-23 20:05:29.914 +06:00 [INF] Executed DbCommand (18ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 20:05:29.920 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 20:05:29.923 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 20:05:29.925 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 20:05:29.928 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 20:05:29.932 +06:00 [INF] Executed DbCommand (2ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 20:05:29.935 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 20:05:29.938 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Book_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[Slug]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__Book_Id_0
+2025-09-23 20:05:29.940 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryManagement.Core.Dto.ManageBookDto.BookResponseDto, LibraryManagement.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-23 20:05:29.944 +06:00 [INF] Executed action LibraryManagement.Api.Controllers.ManageBooksController.GetBooksAsync (LibraryManagement.Api) in 145.1042ms
+2025-09-23 20:05:29.945 +06:00 [INF] Executed endpoint 'LibraryManagement.Api.Controllers.ManageBooksController.GetBooksAsync (LibraryManagement.Api)'
+2025-09-23 20:05:29.946 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7243/api/manage-books - 200 null application/json; charset=utf-8 161.2784ms

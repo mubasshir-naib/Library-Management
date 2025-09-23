@@ -59,7 +59,14 @@ namespace LibraryManagement.Api.Controllers
             return Ok(result);
 
        }
-      
+       [HttpGet("{bookId}")]
+        public async Task<IActionResult> GetBooksByIdAsync(Guid bookId)
+        {
+            var result = await sender.Send(new GetBooksByIdQueries(bookId));
+            return Ok(result);
+
+        }
+
        [HttpDelete("{bookId}")]
        public async Task<IActionResult> DeleteBookAsync(Guid bookId)
        {

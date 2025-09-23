@@ -1,10 +1,18 @@
 using LibraryManagement.Api;
+using LibraryManagement.Api.Middleware;
+using Serilog;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Minute)
+    .Enrich.FromLogContext()
+    .CreateLogger();
 
+builder.Host.UseSerilog();
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -25,6 +33,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

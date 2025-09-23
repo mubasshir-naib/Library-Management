@@ -4,6 +4,7 @@ using LibraryManagement.Core.Enums;
 using LibraryManagement.Core.Interfaces;
 using LibraryManagement.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,12 +13,14 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.Infrastructure.Repositories
 {
-    public class ManageBooksRepository(AppDbContext dbContext, IFileService fileService):IManageBooksRepository
+    public class ManageBooksRepository(AppDbContext dbContext, IFileService fileService,ILogger<ManageBooksRepository>logger):IManageBooksRepository
     {
         private readonly IFileService _fileService= fileService;
+        private readonly ILogger<ManageBooksRepository> _logger=logger;
 
         public async Task<IEnumerable<BookResponseDto>> GetBooks()
         {
+            _logger.LogInformation("Fetching All books at {Time}", DateTime.UtcNow);
             var Books = await dbContext.Books.ToListAsync();
             var BooksDto= new List<BookResponseDto>();
             foreach (var Book in Books) {
@@ -40,7 +43,17 @@ namespace LibraryManagement.Infrastructure.Repositories
         }
         public async Task<BooksEntity> GetBooksbyId(Guid id)
         {
-            return await dbContext.Books.FirstOrDefaultAsync(x=>x.Id == id);
+            var book = await dbContext.Books.FirstOrDefaultAsync(x=>x.Id == id);
+            if (book == null) {
+                _logger.LogWarning($"Book Id : {id} is not found!!!");
+                //  throw new Exception($"books Not found . Id is {id}");
+                throw new KeyNotFoundException($"books Not found . Id is {id}");
+            }
+            else
+            {
+                _logger.LogInformation($"Booksby id: {id}");
+                return book;
+            }
         }
         public async Task<BookResponseDto>AddBooks(BookCreateDto dto)
         {
